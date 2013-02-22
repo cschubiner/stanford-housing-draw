@@ -10,7 +10,7 @@ public class Person {
 		this.name = name;
 		this.tier = tier;
 		this.choices = choices;
-		
+		//test
 	}
 	
 	public Person(String name, int tier){
