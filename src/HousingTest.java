@@ -28,8 +28,8 @@ public class HousingTest {
 		
 		Person clay = new Person("Clay", 2); //This means I'm tier 3
 		clay.choices = new ArrayList<Choice>();
-		clay.choices.add(new Choice(nikhil, floMo, 1));
-		clay.choices.add(new Choice(nikhil, toyon, 0));
+		clay.choices.add(new Choice(clay, floMo, 1));
+		clay.choices.add(new Choice(clay, toyon, 0));
 		people.add(clay);
 		
 		HousingAlgorithm.fillHouses(houses,people);
