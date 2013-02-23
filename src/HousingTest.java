@@ -33,10 +33,12 @@ public class HousingTest {
 		people.add(clay);
 		
 		HousingAlgorithm.fillHouses(houses,people);
-		assertTrue(floMo.people.contains(nikhil));
-		assertTrue(floMo.people.contains(clay) == false);
-		assertTrue(toyon.people.contains(clay));
-		assertTrue(toyon.people.contains(nikhil) == false);
+		System.out.println(floMo);
+		System.out.println(toyon);
+		assertTrue(floMo.getPeople().contains(nikhil));
+		assertTrue(floMo.getPeople().contains(clay) == false);
+		assertTrue(toyon.getPeople().contains(clay));
+		assertTrue(toyon.getPeople().contains(nikhil) == false);
 		
 	}
 
